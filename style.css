@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Beautiful HTML Page</title>
-<style>
-  body {
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f8f9fa;
     margin: 0;
@@ -14,25 +7,29 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-  }
-  .container {
+}
+
+.container {
     text-align: center;
     background-color: #fff;
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-  }
-  h1 {
+}
+
+h1 {
     color: #333;
     font-size: 3em;
     margin-bottom: 20px;
-  }
-  p {
+}
+
+p {
     color: #666;
     font-size: 1.2em;
     margin-bottom: 40px;
-  }
-  .button {
+}
+
+.button {
     display: inline-block;
     background-color: #007bff;
     color: #fff;
@@ -42,19 +39,8 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
     box-shadow: 0px 4px 8px rgba(0, 123, 255, 0.1);
-  }
-  .button:hover {
+}
+
+.button:hover {
     background-color: #0056b3;
-  }
-</style>
-</head>
-<body>
-
-<div class="container">
-  <h1>Welcome to a Beautiful HTML Page</h1>
-  <p>This is a demonstration of a visually appealing HTML page.</p>
-  <a href="#" class="button">Click Me</a>
-</div>
-
-</body>
-</html>
+}
